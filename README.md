@@ -1,0 +1,2 @@
+# westore-site
+WeStore
