@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "defaultLang": "hy"
+  },
+  "company": {
+    "name": "WeStore",
+    "phone": "+37499912255",
+    "email": "cs@westore.am",
+    "address": {
+      "ru": "Армения, Котайк, с. Балаовит, 1-я улица, стр. 72",
+      "en": "Armenia, Kotayk, Balahovit village, 1st street, building 72",
+      "hy": "Արմենիա, Կոտայք, գ. Բալահովիտ, 1-ին փողոց, շ. 72"
+    },
+    "coords": { "lat": 40.25497379147333, "lng": 44.59774379912777 },
+    "legal": {
+      "ru": "ООО «Комплекс Сплай»",
+      "hy": "«Կոմպլեքս Սպլայ ՍՊԸ»",
+      "en": "Complex Supply LLC"
+    }
+  },
+  "i18n": {
+    "ru": {
+      "brandSub": "Складские услуги в Армении",
+      "nav": { "services": "Услуги", "about": "О компании", "warehouse": "О складе", "faq": "FAQ", "contact": "Контакты" },
+      "hero": {
+        "badge": "Красно-белая схема • Ответственное хранение",
+        "title": "Ответственное складское хранение без лишней сложности",
+        "lead": "Палетное хранение с посуточным учетом и прозрачные процессы приемки и отгрузки.",
+        "ctaPrimary": "Запросить предложение",
+        "ctaSecondary": "Посмотреть услуги",
+        "note": "Тарифы на сайте не публикуем — рассчитываем индивидуально по товару и объёму."
+      },
+      "heroSide": {
+        "storageTitle": "Формат",
+        "storageValue": "Европалеты (посуточно)",
+        "tempTitle": "Температура",
+        "tempValue": "0…+25°C",
+        "hoursTitle": "Режим",
+        "hoursValue": "09:00–18:00 (ежедневно)"
+      },
+      "services": {
+        "title": "Что мы предлагаем",
+        "sub": "3 основные услуги для ежедневной логистики",
+        "items": [
+          { "title": "Приемка товара", "text": "Прием, проверка количества и размещение товара на складе по согласованным требованиям." },
+          { "title": "Хранение на европалетах (посуточно)", "text": "Подневная тарификация, удобный учет и прогнозируемые затраты." },
+          { "title": "Отгрузка по заказу клиента", "text": "Комплектация и отгрузка по заявке клиента в согласованные сроки." }
+        ]
+      },
+      "extras": {
+        "title": "Дополнительные услуги",
+        "sub": "Опционально — согласуем индивидуально",
+        "items": ["Напольное хранение", "Маркировка и этикетирование", "Консолидация", "Прочие складские операции по запросу"]
+      },
+      "about": {
+        "title": "О компании",
+        "text": "WeStore вырос из нашей собственной торговой деятельности. По мере роста объемов мы постоянно улучшали склад: оптимизировали приемку и отгрузку, выстраивали контроль и учет, дорабатывали процессы хранения. В результате сформировались понятные и устойчивые процессы, а также программное обеспечение, которое доказало свою эффективность не только внутри компании, но и при работе с внешними клиентами. Сотрудничество с текущими партнерами подтверждается стабильными положительными отзывами."
+      },
+      "process": {
+        "title": "Как мы работаем",
+        "steps": [
+          "Клиент направляет информацию о товаре и объеме",
+          "Мы согласовываем условия хранения и обработки",
+          "Организуем приемку и размещение на складе",
+          "Выполняем отгрузку по заявке клиента"
+        ]
+      },
+      "warehouse": {
+        "title": "О складе",
+        "text": "Склад WeStore построен в 2023 году и соответствует классу A. Оснащен противопожарной системой, беспылевым напольным покрытием и имеет рабочую высоту 12 метров. В сочетании с нашим ПО и отлаженными процессами это позволяет обеспечивать надежное и современное складское обслуживание.",
+        "kpis": ["Класс A", "Построен: 2023", "Высота: 12 м", "Пожарная система", "Беспылевой пол"]
+      },
+      "gallery": { "title": "Фото склада", "hint": "Сейчас стоят временные изображения — ты сможешь заменить файлы в папке img/ без изменений в коде." },
+      "faq": {
+        "title": "FAQ",
+        "sub": "Коротко о том, что важно заранее",
+        "items": [
+          { "q": "Какие температурные режимы поддерживаются?", "a": "Ответственное хранение в диапазоне 0…+25°C (стандартный комнатный режим)." },
+          { "q": "Можно ли сдавать на хранение опасные грузы?", "a": "Нет. Склад не предназначен для хранения товаров, классифицируемых как опасные грузы по ДОПОГ (классы 1–9)." },
+          { "q": "Возможно ли напольное хранение?", "a": "Да, обсуждается индивидуально." },
+          { "q": "Режим работы склада", "a": "Ежедневно с 09:00 до 18:00, включая выходные." },
+          { "q": "Как быстро осуществляется отгрузка?", "a": "До 3 часов с момента получения заказа, чаще — быстрее." },
+          { "q": "Оказываете ли услуги маркировки?", "a": "Да, маркировка — отдельная услуга и согласуется индивидуально." },
+          { "q": "Сдаете ли помещения в аренду?", "a": "Нет, мы работаем только в формате складских услуг." }
+        ]
+      },
+      "contact": {
+        "title": "Контакты",
+        "sub": "Напишите или позвоните — рассчитаем условия под ваш товар и объём",
+        "phoneLabel": "Телефон",
+        "emailLabel": "Email",
+        "addressLabel": "Адрес",
+        "legalPrefix": "Юридическое лицо"
+      },
+      "form": {
+        "title": "Заявка на расчёт",
+        "sub": "Минимум данных — чтобы мы быстро вернулись с предложением",
+        "fields": { "name": "Имя", "company": "Компания (необязательно)", "contact": "Телефон или email", "message": "Комментарий (товар / объём / пожелания)" },
+        "submit": "Отправить",
+        "note": "Форма отправляется через Netlify Forms и будет приходить в панель Netlify. При необходимости настроим уведомления на email."
+      },
+      "footer": { "line": "Ответственное складское хранение • WeStore" }
+    },
+
+    "en": {
+      "brandSub": "Warehouse services in Armenia",
+      "nav": { "services": "Services", "about": "About", "warehouse": "Warehouse", "faq": "FAQ", "contact": "Contact" },
+      "hero": {
+        "badge": "Red & white • Responsible storage",
+        "title": "Responsible warehousing without unnecessary complexity",
+        "lead": "Euro-pallet storage with daily billing and clear inbound and outbound processes.",
+        "ctaPrimary": "Request a quote",
+        "ctaSecondary": "View services",
+        "note": "We don’t publish fixed tariffs — pricing is calculated individually based on goods and volume."
+      },
+      "heroSide": {
+        "storageTitle": "Storage",
+        "storageValue": "Euro-pallets (daily)",
+        "tempTitle": "Temperature",
+        "tempValue": "0…+25°C",
+        "hoursTitle": "Hours",
+        "hoursValue": "09:00–18:00 (daily)"
+      },
+      "services": {
+        "title": "What we offer",
+        "sub": "3 core services for day-to-day operations",
+        "items": [
+          { "title": "Inbound receiving", "text": "Receiving, quantity verification, and placement according to agreed requirements." },
+          { "title": "Euro-pallet storage (daily billing)", "text": "Daily pricing, clear accounting, and predictable costs." },
+          { "title": "Outbound dispatch upon request", "text": "Order picking and dispatch based on the client’s request and agreed timelines." }
+        ]
+      },
+      "extras": {
+        "title": "Optional services",
+        "sub": "Available upon individual agreement",
+        "items": ["Floor storage", "Labeling and marking", "Consolidation", "Other warehouse operations upon request"]
+      },
+      "about": {
+        "title": "About the company",
+        "text": "WeStore grew out of our own trading operations. As volumes increased, we continuously improved our warehouse by optimizing receiving and dispatch, strengthening control, and refining storage processes. As a result, we developed clear and reliable workflows along with software that has proven effective not only internally but also when serving external clients. Ongoing cooperation with our partners is confirmed by consistently positive feedback."
+      },
+      "process": {
+        "title": "How it works",
+        "steps": [
+          "You provide product details and volume",
+          "We agree on storage and handling terms",
+          "We receive and place the goods in the warehouse",
+          "We dispatch goods upon your request"
+        ]
+      },
+      "warehouse": {
+        "title": "About the warehouse",
+        "text": "The WeStore warehouse was built in 2023 and meets Class A standards. It is equipped with a fire safety system, dust-free flooring, and a 12-meter working height. Combined with our software and operational processes, this enables reliable and modern warehousing services.",
+        "kpis": ["Class A", "Built: 2023", "Height: 12 m", "Fire safety system", "Dust-free flooring"]
+      },
+      "gallery": { "title": "Warehouse photos", "hint": "Temporary images are used for now — you can replace files in img/ later without changing the code." },
+      "faq": {
+        "title": "FAQ",
+        "sub": "Quick answers to common questions",
+        "items": [
+          { "q": "What temperature range do you support?", "a": "Responsible storage within 0…+25°C (standard ambient range)." },
+          { "q": "Do you accept dangerous goods?", "a": "No. The warehouse is not intended for storing goods classified as dangerous under ADR (Classes 1–9)." },
+          { "q": "Is floor storage available?", "a": "Yes, upon individual agreement." },
+          { "q": "Working hours", "a": "Daily 09:00–18:00, including weekends." },
+          { "q": "How fast is outbound dispatch?", "a": "Up to 3 hours from order receipt — often faster." },
+          { "q": "Do you provide labeling?", "a": "Yes. Labeling is a separate service agreed individually." },
+          { "q": "Do you rent out space only?", "a": "No. We provide warehousing as a service, not empty-space leasing." }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "sub": "Call or message us — we’ll prepare a quote based on your goods and volume",
+        "phoneLabel": "Phone",
+        "emailLabel": "Email",
+        "addressLabel": "Address",
+        "legalPrefix": "Legal entity"
+      },
+      "form": {
+        "title": "Quote request",
+        "sub": "Just the essentials so we can respond quickly",
+        "fields": { "name": "Name", "company": "Company (optional)", "contact": "Phone or email", "message": "Notes (goods / volume / requirements)" },
+        "submit": "Send",
+        "note": "This form uses Netlify Forms. Submissions appear in the Netlify dashboard; we can also enable email notifications."
+      },
+      "footer": { "line": "Responsible warehousing • WeStore" }
+    },
+
+    "hy": {
+      "brandSub": "Պահեստային ծառայություններ Հայաստանում",
+      "nav": { "services": "Ծառայություններ", "about": "Ընկերության մասին", "warehouse": "Պահեստի մասին", "faq": "ՀՏՀ", "contact": "Կապ" },
+
+      "hero": {
+        "badge": "Կարմիր-սպիտակ • Պատասխանատու պահպանում",
+        "title": "Պատասխանատու պահեստային պահպանում՝ առանց ավելորդ բարդությունների",
+        "lead": "Եվրոպալետային պահպանում՝ օրական հաշվարկով և հստակ ընդունման ու արտահանման գործընթացներ։",
+        "ctaPrimary": "Ստանալ առաջարկ",
+        "ctaSecondary": "Տեսնել ծառայությունները",
+        "note": "Սակագները կայքում չենք հրապարակում՝ հաշվարկը կատարվում է անհատապես՝ ապրանքի և ծավալի հիման վրա։"
+      },
+
+      "heroSide": {
+        "storageTitle": "Ֆորմատ",
+        "storageValue": "Եվրոպալետներ (օրական)",
+        "tempTitle": "Ջերմաստիճան",
+        "tempValue": "0…+25°C",
+        "hoursTitle": "Աշխ․ ժամեր",
+        "hoursValue": "09:00–18:00 (ամեն օր)"
+      },
+
+      "services": {
+        "title": "Ինչ ենք առաջարկում",
+        "sub": "3 հիմնական ծառայություն՝ ամենօրյա աշխատանքների համար",
+        "items": [
+          { "title": "Ապրանքի ընդունում", "text": "Ընդունում, քանակի ստուգում և տեղաբաշխում՝ համաձայնեցված պահանջներով։" },
+          { "title": "Պահպանում եվրոպալետների վրա (օրական)", "text": "Օրական սակագին, հստակ հաշվառում և կանխատեսելի ծախսեր։" },
+          { "title": "Արտահանում պատվերով", "text": "Հավաքում և արտահանում՝ հաճախորդի հայտի հիման վրա՝ համաձայնեցված ժամկետներով։" }
+        ]
+      },
+
+      "extras": {
+        "title": "Լրացուցիչ ծառայություններ",
+        "sub": "Օպցիոնալ՝ համաձայնեցվում է անհատապես",
+        "items": ["Հատակային պահպանում", "Մարկավորում / պիտակավորում", "Կոնսոլիդացիա", "Այլ պահեստային աշխատանքներ՝ ըստ պահանջի"]
+      },
+
+      "about": {
+        "title": "Ընկերության մասին",
+        "text": "WeStore-ը ձևավորվել է մեր սեփական առևտրային գործունեությունից։ Ծավալների աճի հետ մենք շարունակաբար բարելավել ենք պահեստը՝ օպտիմալացնելով ընդունումն ու արտահանումը, ուժեղացնելով վերահսկումն ու հաշվառումը, և բարելավելով պահպանումը։ Արդյունքում ձևավորվել են հստակ գործընթացներ և ծրագրային լուծում, որը արդյունավետ է աշխատում նաև արտաքին հաճախորդների հետ։ Գործող գործընկերների հետ համագործակցությունը հաստատվում է հետևողականորեն դրական արձագանքներով։"
+      },
+
+      "process": {
+        "title": "Ինչպես ենք աշխատում",
+        "steps": [
+          "Դուք ուղարկում եք ապրանքի տվյալները և ծավալը",
+          "Մենք համաձայնեցնում ենք պահպանում/մշակում պայմանները",
+          "Կազմակերպում ենք ընդունումը և տեղաբաշխումը",
+          "Կատարում ենք արտահանում՝ ձեր հայտով"
+        ]
+      },
+
+      "warehouse": {
+        "title": "Պահեստի մասին",
+        "text": "WeStore պահեստը կառուցվել է 2023 թվականին և համապատասխանում է A դասին։ Այն համալրված է հրդեհային անվտանգության համակարգով, ունի փոշուց ազատ հատակածածկ և 12 մ աշխատանքային բարձրություն։ Մեր ծրագրային ապահովման և գործընթացների հետ միասին դա ապահովում է հուսալի և ժամանակակից պահեստային սպասարկում։",
+        "kpis": ["A դաս", "Կառուցվել է՝ 2023", "Բարձրություն՝ 12 մ", "Հրդեհային համակարգ", "Փոշուց ազատ հատակ"]
+      },
+
+      "gallery": { "title": "Պահեստի լուսանկարներ", "hint": "Ժամանակավոր նկարներ են․ հետո կփոխարինեք img/ պանակում՝ առանց կոդը փոխելու։" },
+
+      "faq": {
+        "title": "ՀՏՀ",
+        "sub": "Կարճ պատասխաններ՝ կարևոր հարցերի վերաբերյալ",
+        "items": [
+          { "q": "Ի՞նչ ջերմաստիճանային ռեժիմ է ապահովվում։", "a": "Պահպանում՝ 0…+25°C միջակայքում (ստանդարտ սենյակային ռեժիմ)։" },
+          { "q": "Ընդունո՞ւմ եք վտանգավոր բեռներ։", "a": "Ոչ։ Պահեստը նախատեսված չէ ADR / ДОПОГ դասակարգման վտանգավոր բեռների (դասեր 1–9) պահման համար։" },
+          { "q": "Կարո՞ղ է լինել հատակային պահպանում։", "a": "Այո, համաձայնեցվում է անհատապես։" },
+          { "q": "Աշխատանքի ժամերը", "a": "Ամեն օր՝ 09:00–18:00, ներառյալ հանգստյան օրերը։" },
+          { "q": "Որքա՞ն արագ եք կատարում արտահանումը։", "a": "Մինչև 3 ժամ՝ պատվերը ստանալուց հետո, հաճախ՝ ավելի արագ։" },
+          { "q": "Կատարո՞ւմ եք մարկավորում։", "a": "Այո։ Մարկավորումը առանձին ծառայություն է և համաձայնեցվում է անհատապես։" },
+          { "q": "Տարածք վարձակալությա՞մբ եք տալիս։", "a": "Ոչ։ Աշխատում ենք միայն պահեստային ծառայությունների ձևաչափով։" }
+        ]
+      },
+
+      "contact": {
+        "title": "Կապ",
+        "sub": "Գրեք կամ զանգահարեք՝ պայմանները հաշվարկելու համար",
+        "phoneLabel": "Հեռախոս",
+        "emailLabel": "Էլ․ փոստ",
+        "addressLabel": "Հասցե",
+        "legalPrefix": "Իրավաբանական անձ"
+      },
+
+      "form": {
+        "title": "Հայտ",
+        "sub": "Նվազագույն տվյալներ՝ արագ պատասխան ստանալու համար",
+        "fields": { "name": "Անուն", "company": "Ընկերություն (ոչ պարտադիր)", "contact": "Հեռախոս կամ էլ․ փոստ", "message": "Մեկնաբանություն (ապրանք / ծավալ / պահանջներ)" },
+        "submit": "Ուղարկել",
+        "note": "Հայտերը գրանցվում են Netlify Forms-ում։ Կարող ենք միացնել նաև email ծանուցումներ։"
+      },
+
+      "footer": { "line": "Պատասխանատու պահեստային պահպանում • WeStore" }
+    }
+  }
+}

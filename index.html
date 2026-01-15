@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WeStore — Պատասխանատու պահեստային պահպանում</title>
+  <meta name="description" content="WeStore — responsible warehousing in Armenia: receiving, Euro-pallet daily storage, outbound dispatch." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+<header class="header">
+  <div class="wrap topbar">
+    <a class="brand" href="#top" aria-label="WeStore">
+      <div class="logo">W</div>
+      <div class="brandText">
+        <div class="brandName">WeStore</div>
+        <div class="brandSub" data-i18n="brandSub"></div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="#services" data-i18n="nav.services"></a>
+      <a href="#about" data-i18n="nav.about"></a>
+      <a href="#warehouse" data-i18n="nav.warehouse"></a>
+      <a href="#faq" data-i18n="nav.faq"></a>
+      <a href="#contact" data-i18n="nav.contact"></a>
+    </nav>
+
+    <div class="lang" role="group" aria-label="Language">
+      <button class="chip" data-lang="hy" aria-pressed="true" type="button">Հայ</button>
+      <button class="chip" data-lang="ru" aria-pressed="false" type="button">RU</button>
+      <button class="chip" data-lang="en" aria-pressed="false" type="button">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap heroGrid">
+      <div class="card heroMain">
+        <div class="badge" data-i18n="hero.badge"></div>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="lead" data-i18n="hero.lead"></p>
+
+        <div class="ctaRow">
+          <a class="btn btnPrimary" href="#contact" data-i18n="hero.ctaPrimary"></a>
+          <a class="btn btnGhost" href="#services" data-i18n="hero.ctaSecondary"></a>
+        </div>
+
+        <div class="note" data-i18n="hero.note"></div>
+      </div>
+
+      <div class="card heroSide">
+        <div class="mini">
+          <div class="miniTitle" data-i18n="hero.side.storageTitle"></div>
+          <div class="miniValue" data-i18n="hero.side.storageValue"></div>
+        </div>
+
+        <div class="miniGrid">
+          <div class="mini">
+            <div class="miniTitle" data-i18n="hero.side.tempTitle"></div>
+            <div class="miniValue" data-i18n="hero.side.tempValue"></div>
+          </div>
+          <div class="mini">
+            <div class="miniTitle" data-i18n="hero.side.hoursTitle"></div>
+            <div class="miniValue" data-i18n="hero.side.hoursValue"></div>
+          </div>
+        </div>
+
+        <div class="mini">
+          <div class="miniTitle" data-i18n="hero.side.locationTitle"></div>
+          <div class="miniValue" id="heroLocation"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2 data-i18n="services.title"></h2>
+        <p data-i18n="services.sub"></p>
+      </div>
+
+      <div class="grid3">
+        <div class="svc">
+          <div class="icon">1</div>
+          <h3 data-i18n="services.items.0.title"></h3>
+          <p data-i18n="services.items.0.text"></p>
+        </div>
+        <div class="svc">
+          <div class="icon">2</div>
+          <h3 data-i18n="services.items.1.title"></h3>
+          <p data-i18n="services.items.1.text"></p>
+        </div>
+        <div class="svc">
+          <div class="icon">3</div>
+          <h3 data-i18n="services.items.2.title"></h3>
+          <p data-i18n="services.items.2.text"></p>
+        </div>
+      </div>
+
+      <div class="panel extras">
+        <h3 data-i18n="extras.title"></h3>
+        <p class="muted" data-i18n="extras.sub"></p>
+        <ul class="list" id="extrasList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap two">
+      <div class="panel">
+        <h2 data-i18n="about.title"></h2>
+        <p class="muted" data-i18n="about.text"></p>
+      </div>
+      <div class="panel">
+        <h2 data-i18n="process.title"></h2>
+        <ol class="list" id="processList"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAREHOUSE -->
+  <section id="warehouse" class="section">
+    <div class="wrap two">
+      <div class="panel">
+        <h2 data-i18n="warehouse.title"></h2>
+        <p class="muted" data-i18n="warehouse.text"></p>
+        <div class="kpis" id="kpis"></div>
+      </div>
+
+      <div class="panel gallery">
+        <h2 data-i18n="gallery.title"></h2>
+        <div class="galleryGrid">
+          <img src="./img/warehouse-1.jpg" alt="Warehouse photo 1" />
+          <img src="./img/warehouse-2.jpg" alt="Warehouse photo 2" />
+          <img src="./img/warehouse-3.jpg" alt="Warehouse photo 3" />
+        </div>
+        <p class="hint" data-i18n="gallery.hint"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2 data-i18n="faq.title"></h2>
+        <p data-i18n="faq.sub"></p>
+      </div>
+
+      <div class="faq" id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap two">
+      <div class="panel">
+        <h2 data-i18n="contact.title"></h2>
+        <p class="muted" data-i18n="contact.sub"></p>
+
+        <div class="contactGrid">
+          <div>
+            <div class="label" data-i18n="contact.phoneLabel"></div>
+            <a id="phoneLink" class="strong" href="#">—</a>
+          </div>
+          <div>
+            <div class="label" data-i18n="contact.emailLabel"></div>
+            <a id="emailLink" class="strong" href="#">—</a>
+          </div>
+          <div class="span2">
+            <div class="label" data-i18n="contact.addressLabel"></div>
+            <div class="strong" id="addressText">—</div>
+          </div>
+        </div>
+
+        <div class="mapWrap">
+          <iframe
+            id="mapFrame"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            title="WeStore map"
+          ></iframe>
+        </div>
+
+        <div class="legal" id="legalEntity"></div>
+      </div>
+
+      <div class="panel">
+        <h2 data-i18n="form.title"></h2>
+        <p class="muted" data-i18n="form.sub"></p>
+
+        <!-- Netlify Forms (работает на статике) -->
+        <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+          <input type="hidden" name="form-name" value="quote" />
+          <p class="hidden">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <label>
+            <span data-i18n="form.fields.name"></span>
+            <input name="name" required />
+          </label>
+
+          <label>
+            <span data-i18n="form.fields.company"></span>
+            <input name="company" />
+          </label>
+
+          <label>
+            <span data-i18n="form.fields.contact"></span>
+            <input name="contact" required />
+          </label>
+
+          <label>
+            <span data-i18n="form.fields.message"></span>
+            <textarea name="message" rows="5"></textarea>
+          </label>
+
+          <button class="btn btnPrimary" type="submit" data-i18n="form.submit"></button>
+
+          <p class="hint" data-i18n="form.note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div>
+      <div class="brandName">WeStore</div>
+      <div class="small muted" data-i18n="footer.line"></div>
+    </div>
+    <div class="small muted" id="copyright"></div>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
