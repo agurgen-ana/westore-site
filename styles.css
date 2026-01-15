@@ -349,6 +349,54 @@ body, .hero, .section { background:#fff !important; }
 
 /* чтобы заголовки/текст не "прилипали" */
 h1
+/* === UI UPGRADE: readable + modern, still strict, NO gradients === */
+
+/* 1) фон секций (не розовый, а нейтральный серый) */
+.section:nth-of-type(even){
+  background: var(--gray) !important;
+}
+.section:nth-of-type(odd){
+  background: var(--white) !important;
+}
+
+/* 2) типографика */
+h1{
+  font-size: 44px;
+  line-height: 1.05;
+  letter-spacing: -0.6px;
+  max-width: 18ch;
+}
+.sectionTitle h2,
+.panel h2{
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.3px;
+}
+.svc h3{
+  font-size: 18px;
+  line-height: 1.2;
+}
+.lead{
+  font-size: 18px;
+  line-height: 1.65;
+  color: #222 !important;
+}
+.muted, .svc p, .faqA{
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333 !important;
+}
+
+/* 3) «дорогая» глубина без градиентов: очень мягкая тень + чёткая рамка */
+.card, .panel, .svc, .faqItem{
+  border: 1px solid #e3e3e3 !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06) !important; /* не градиент */
+}
+
+/
+
 
 /* disable any decorative pseudo-gradients */
 .svc::before { display:none !important; }
