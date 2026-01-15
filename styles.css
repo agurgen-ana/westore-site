@@ -312,6 +312,43 @@ body, .hero, .section { background:#fff !important; }
   width:auto;
   display:block;
 }
+/* === LAYOUT FIX: padding + readable text + stable grids === */
+
+.wrap{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px;            /* чтобы всегда был отступ от края */
+}
+
+.hero{ padding: 56px 0 24px; }
+.section{ padding: 32px 0; }  /* больше воздуха между секциями */
+
+.heroGrid{
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.two{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr)); /* важно minmax */
+  gap: 16px;
+}
+
+.card, .panel, .svc, .mini, .faqItem{
+  padding: 20px !important;    /* ВНУТРЕННИЕ ОТСТУПЫ: ключ */
+}
+
+/* чтобы заголовки/текст не "прилипали" */
+h1
 
 /* disable any decorative pseudo-gradients */
 .svc::before { display:none !important; }
