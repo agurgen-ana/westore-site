@@ -1,29 +1,26 @@
 :root{
   --red:#d01616;
   --red2:#b51212;
-  --bg:#fff6f6;
   --text:#151515;
   --muted:#5a5a5a;
-  --border:rgba(208,22,22,.18);
   --shadow:0 10px 30px rgba(0,0,0,.08);
   --radius:18px;
   --max:1100px;
 }
 *{box-sizing:border-box}
-body {
-  margin: 0;
+body{
+  margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: #ffffff;
-  color: #111111;
+  background:#ffffff;
+  color:#111111;
 }
 a{color:inherit}
 .wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
 
 .header{
-  position:sticky; top:0; z-index:50;
-  backdrop-filter:saturate(160%) blur(10px);
-  background:rgba(255,255,255,.72);
-  border-bottom:1px solid rgba(0,0,0,.06);
+  background:#fff;
+  border-bottom:1px solid #000;
+  backdrop-filter:none;
 }
 .topbar{display:flex; align-items:center; justify-content:space-between; gap:14px; padding:14px 0}
 .brand{display:flex; align-items:center; gap:12px; text-decoration:none; font-weight:800}
@@ -44,7 +41,7 @@ a{color:inherit}
   text-decoration:none; color:var(--muted);
   font-weight:650; padding:8px 10px; border-radius:12px;
 }
-.nav a:hover{background:rgba(208,22,22,.08); color:var(--text)}
+.nav a:hover{background: color:var(--text)}
 
 .lang{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
 .chip{
@@ -70,14 +67,10 @@ a{color:inherit}
 }
 .heroMain{padding:28px 26px}
 .badge{
-  display:inline-flex; gap:8px; align-items:center;
-  background:rgba(208,22,22,.08);
-  border:1px solid var(--border);
-  color:var(--red);
-  padding:8px 12px;
-  border-radius:999px;
-  font-weight:900;
-  font-size:13px;
+  background:#fff;
+  border:2px solid #ff0000;
+  color:#ff0000;
+  border-radius:0;
 }
 h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
 .lead{margin:0; color:var(--muted); font-size:16.5px; line-height:1.55; max-width:62ch}
@@ -102,9 +95,12 @@ h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
 }
 .heroSide{padding:18px; display:grid; gap:12px}
 .mini{
-  padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.06);
-  background: (180deg, rgba(208,22,22,.08), transparent 55%), #fff;
+  padding:16px;
+  border-radius:0;
+  border:1px solid #000;
+  background:#fff;
 }
+
 .miniTitle{margin:0 0 6px; font-size:13px; color:var(--muted); font-weight:900; letter-spacing:.2px}
 .miniValue{margin:0; font-weight:900; font-size:15px}
 .miniGrid{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px}
@@ -123,7 +119,6 @@ h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
 }
 .icon{
   width:44px; height:44px; border-radius:16px;
-  background:rgba(208,22,22,.10);
   border:1px solid var(--border);
   display:grid; place-items:center;
   color:var(--red);
@@ -165,13 +160,8 @@ h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
   overflow:hidden;
 }
 .faqQ{
-  width:100%;
-  text-align:left;
-  padding:14px 14px;
-  font-weight:950;
-  cursor:pointer;
-  background:(180deg, rgba(208,22,22,.06), transparent 70%);
-  border:0;
+  background:#fff;
+  border-bottom:1px solid #000;
 }
 .faqA{padding:0 14px 14px; color:var(--muted); line-height:1.6}
 .faqA[hidden]{display:none}
@@ -205,10 +195,8 @@ h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
 .hidden{display:none}
 
 .footer{
-  margin-top:10px;
-  padding:26px 0 42px;
-  border-top:1px solid rgba(0,0,0,.06);
-  background:(180deg, rgba(208,22,22,.05), transparent 70%);
+  background:#fff;
+  border-top:1px solid #000;
 }
 .foot{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; align-items:center}
 .small{font-size:13px}
@@ -221,3 +209,20 @@ h1{margin:14px 0 10px; font-size:40px; line-height:1.06; letter-spacing:-.6px}
   .nav{display:none}
   .galleryGrid{grid-template-columns:1fr}
 }
+/* --- HARD RESET: no gradients, no pink --- */
+body, .hero, .section { background:#fff !important; }
+
+.header, .footer { background:#fff !important; backdrop-filter:none !important; }
+
+.card, .panel, .svc, .mini, .faqItem { 
+  background:#fff !important; 
+  box-shadow:none !important; 
+  border-radius:0 !important;
+}
+
+.badge, .faqQ { background:#fff !important; }
+
+* { box-shadow:none !important; }
+
+/* disable any decorative pseudo-gradients */
+.svc::before { display:none !important; }
