@@ -1,18 +1,20 @@
 :root{
-  --red:#d01616;
-  --red2:#b51212;
-  --text:#151515;
-  --muted:#5a5a5a;
-  --shadow:0 10px 30px rgba(0,0,0,.08);
-  --radius:18px;
+  --red:#ff0000;
+  --black:#0b0b0b;
+  --white:#ffffff;
+  --gray:#f4f4f4;
+  --text:#111111;
+  --muted:#444444;
+  --border:#e5e5e5;
+  --radius:8px;
   --max:1100px;
 }
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:#ffffff;
-  color:#111111;
+  background:var(--white);
+  color:var(--text);
 }
 a{color:inherit}
 .wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
@@ -223,6 +225,93 @@ body, .hero, .section { background:#fff !important; }
 .badge, .faqQ { background:#fff !important; }
 
 * { box-shadow:none !important; }
+
+/* === STYLE v2: strict + modern, NO gradients === */
+
+/* remove any gradients that could be left */
+.hero, .section, .footer, .mini, .badge, .faqQ{
+  background: var(--white) !important;
+}
+
+/* header clean */
+.header{
+  background: var(--white) !important;
+  border-bottom: 1px solid var(--border) !important;
+  backdrop-filter: none !important;
+}
+
+/* containers */
+.card, .panel, .svc, .faqItem, .mini{
+  background: var(--white) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: none !important;
+}
+
+/* subtle section separation */
+.section{
+  border-top: 1px solid var(--border);
+}
+
+/* badges and chips */
+.badge{
+  border: 1px solid var(--red) !important;
+  color: var(--red) !important;
+  border-radius: 999px !important;
+}
+
+.chip[aria-pressed="true"]{
+  color: var(--red) !important;
+  border-color: var(--red) !important;
+  box-shadow: none !important;
+}
+
+/* buttons */
+.btnPrimary{
+  background: var(--red) !important;
+  color: var(--white) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: none !important;
+}
+
+.btnGhost{
+  background: var(--white) !important;
+  border: 1px solid var(--black) !important;
+  color: var(--black) !important;
+  border-radius: var(--radius) !important;
+}
+
+/* service cards: remove decorative pseudo */
+.svc::before{ display:none !important; }
+
+/* mini blocks */
+.miniTitle{ color: var(--muted) !important; }
+.miniValue{ color: var(--text) !important; }
+
+/* FAQ */
+.faqQ{
+  border: 0 !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+.faqA{
+  color: var(--muted) !important;
+}
+
+/* footer clean */
+.footer{
+  border-top: 1px solid var(--border) !important;
+}
+
+/* logo sizing */
+.logo{
+  display:flex;
+  align-items:center;
+}
+.logo img{
+  height:48px;
+  width:auto;
+  display:block;
+}
 
 /* disable any decorative pseudo-gradients */
 .svc::before { display:none !important; }
