@@ -14,10 +14,19 @@ function setText(el, value) {
   if (!el) return;
   el.textContent = value ?? '';
 }
-
+function setParagraphs(el, text){
+  el.innerHTML = text
+    .split('\n\n')
+    .map(p => `<p>${p}</p>`)
+    .join('');
+}
 function render(lang) {
   const i18n = DATA.i18n[lang];
   document.documentElement.lang = lang === 'hy' ? 'hy' : (lang === 'ru' ? 'ru' : 'en');
+  const aboutEl = document.querySelector('[data-i18n="about.text"]');
+if (aboutEl) {
+  setParagraphs(aboutEl, i18n.about.text);
+}
 
   // Simple i18n binding
   document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -122,7 +131,13 @@ function render(lang) {
 
   // Save
   localStorage.setItem('westore_lang', lang);
-  setPressed(lang);
+  function setPressed(lang) {
+  document.querySelectorAll('.chip[data-lang]').forEach(btn => {
+    btn.setAttribute(
+      'aria-pressed',
+      btn.dataset.lang === lang ? 'true' : 'false'
+    );
+  });
 }
 
 async function init() {
