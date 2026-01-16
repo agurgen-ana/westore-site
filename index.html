@@ -39,45 +39,41 @@
 
 <main id="top">
   <!-- HERO -->
-  <section class="hero">
-    <div class="wrap heroGrid">
-      <div class="card heroMain">
-        <div class="badge" data-i18n="hero.badge"></div>
-        <h1 data-i18n="hero.title"></h1>
-        <p class="lead" data-i18n="hero.lead"></p>
+<section class="hero heroDD">
+  <div class="wrap heroSplit">
+    <div class="heroMedia">
+      <!-- поставь сюда временно любую фотку склада -->
+      <img src="./img/hero-warehouse.jpg" alt="WeStore warehouse" />
+    </div>
 
-        <div class="ctaRow">
-          <a class="btn btnPrimary" href="#contact" data-i18n="hero.ctaPrimary"></a>
-          <a class="btn btnGhost" href="#services" data-i18n="hero.ctaSecondary"></a>
-        </div>
+    <div class="heroCopy">
+      <div class="topLine"></div>
+      <div class="badge" data-i18n="hero.badge"></div>
 
-        <div class="note" data-i18n="hero.note"></div>
-      </div>
+      <h1 data-i18n="hero.title"></h1>
+      <p class="lead" data-i18n="hero.lead"></p>
 
-      <div class="card heroSide">
-        <div class="mini">
-          <div class="miniTitle" data-i18n="hero.side.storageTitle"></div>
-          <div class="miniValue" data-i18n="hero.side.storageValue"></div>
-        </div>
+      <!-- форма как в референсе (в hero) -->
+      <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="heroForm">
+        <input type="hidden" name="form-name" value="quote" />
+        <p class="hidden">
+          <label>Don’t fill this out: <input name="bot-field" /></label>
+        </p>
 
-        <div class="miniGrid">
-          <div class="mini">
-            <div class="miniTitle" data-i18n="hero.side.tempTitle"></div>
-            <div class="miniValue" data-i18n="hero.side.tempValue"></div>
-          </div>
-          <div class="mini">
-            <div class="miniTitle" data-i18n="hero.side.hoursTitle"></div>
-            <div class="miniValue" data-i18n="hero.side.hoursValue"></div>
-          </div>
-        </div>
+        <input name="contact" required class="heroInput" placeholder="Email / телефон" />
+        <button class="btn btnPrimary heroBtn" type="submit" data-i18n="hero.ctaPrimary"></button>
+      </form>
 
-        <div class="mini">
-          <div class="miniTitle" data-i18n="hero.side.locationTitle"></div>
-          <div class="miniValue" id="heroLocation"></div>
-        </div>
+      <div class="heroHint" data-i18n="hero.note"></div>
+
+      <div class="heroLinks">
+        <a href="#services" class="heroLink" data-i18n="hero.ctaSecondary"></a>
+        <span class="dotSep">•</span>
+        <a href="#contact" class="heroLink">Контакты</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- SERVICES -->
   <section id="services" class="section">
@@ -237,9 +233,12 @@
 
 <footer class="footer">
   <div class="wrap foot">
-    <div>
-      <div class="brandName">WeStore</div>
-      <div class="small muted" data-i18n="footer.line"></div>
+    <div class="footBrand">
+      <img class="footerLogo" src="./img/logo.png" alt="WeStore" />
+      <div>
+        <div class="brandName">WeStore</div>
+        <div class="small muted" data-i18n="footer.line"></div>
+      </div>
     </div>
     <div class="small muted" id="copyright"></div>
   </div>
