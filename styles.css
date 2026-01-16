@@ -780,5 +780,54 @@ html[lang="hy"] body{
     Arial,
     sans-serif;
 }
+.topbar{
+  display:grid;
+  grid-template-columns: auto 1fr auto;
+  align-items:center;
+  gap:24px;
+}
+
+.nav{
+  justify-self:center;
+  white-space:nowrap;
+}
+
+.lang{
+  justify-self:end;
+  flex-wrap:nowrap;
+}
+/* bigger logo */
+.logo img{
+  height:56px;
+}
+
+/* language switcher highlight */
+.lang{
+  border:1px solid var(--border);
+  padding:6px;
+  border-radius:999px;
+  background:#fff;
+}
+
+.chip{
+  padding:10px 14px;
+  font-weight:800;
+}
+
+.chip[aria-pressed="true"]{
+  background:var(--red);
+  color:#fff;
+  border-color:var(--red);
+}
+.heroInput,
+.heroBtn{
+  border-radius:999px !important;
+}
+.mapWrap iframe{
+  width:100% !important;
+  height:280px !important;
+  min-height:280px;
+  border:0;
+}
 
 
