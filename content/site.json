@@ -54,7 +54,7 @@
       },
       "about": {
         "title": "О компании",
-        "text": "WeStore вырос из нашей собственной торговой деятельности. По мере роста объемов мы постоянно улучшали склад: оптимизировали приемку и отгрузку, выстраивали контроль и учет, дорабатывали процессы хранения. В результате сформировались понятные и устойчивые процессы, а также программное обеспечение, которое доказало свою эффективность не только внутри компании, но и при работе с внешними клиентами. Сотрудничество с текущими партнерами подтверждается стабильными положительными отзывами."
+        "text": "WeStore вырос из нашей собственной торговой деятельности. По мере роста объемов мы постоянно улучшали склад: оптимизировали приемку и отгрузку, выстраивали контроль и учет, дорабатывали процессы хранения.\n\nВ результате сформировались понятные и устойчивые процессы, а также программное обеспечение, которое доказало свою эффективность не только внутри компании, но и при работе с внешними клиентами.\n\nСотрудничество с текущими партнерами подтверждается стабильными положительными отзывами."
       },
       "process": {
         "title": "Как мы работаем",
@@ -67,7 +67,7 @@
       },
       "warehouse": {
         "title": "О складе",
-        "text": "Склад WeStore построен в 2023 году и соответствует классу A. Оснащен противопожарной системой, беспылевым напольным покрытием и имеет рабочую высоту 12 метров. В сочетании с нашим ПО и отлаженными процессами это позволяет обеспечивать надежное и современное складское обслуживание.",
+        "text": "Склад WeStore построен в 2023 году и соответствует классу A. Оснащен противопожарной системой, беспылевым напольным покрытием и имеет рабочую высоту 12 метров.\n\nВ сочетании с нашим ПО и отлаженными процессами это позволяет обеспечивать надежное и современное складское обслуживание.",
         "kpis": ["Класс A", "Построен: 2023", "Высота: 12 м", "Пожарная система", "Беспылевой пол"]
       },
       "gallery": { "title": "Фото склада", "hint": "Сейчас стоят временные изображения — ты сможешь заменить файлы в папке img/ без изменений в коде." },
@@ -137,7 +137,7 @@
       },
       "about": {
         "title": "About the company",
-        "text": "WeStore grew out of our own trading operations. As volumes increased, we continuously improved our warehouse by optimizing receiving and dispatch, strengthening control, and refining storage processes. As a result, we developed clear and reliable workflows along with software that has proven effective not only internally but also when serving external clients. Ongoing cooperation with our partners is confirmed by consistently positive feedback."
+        "text": "WeStore grew out of our own trading operations. As volumes increased, we continuously improved our warehouse by optimizing receiving and dispatch, strengthening control, and refining storage processes.\n\nAs a result, we developed clear and reliable workflows along with software that has proven effective not only internally but also when serving external clients.\n\n Ongoing cooperation with our partners is confirmed by consistently positive feedback."
       },
       "process": {
         "title": "How it works",
@@ -150,7 +150,7 @@
       },
       "warehouse": {
         "title": "About the warehouse",
-        "text": "The WeStore warehouse was built in 2023 and meets Class A standards. It is equipped with a fire safety system, dust-free flooring, and a 12-meter working height. Combined with our software and operational processes, this enables reliable and modern warehousing services.",
+        "text": "The WeStore warehouse was built in 2023 and meets Class A standards. It is equipped with a fire safety system, dust-free flooring, and a 12-meter working height.\n\nCombined with our software and operational processes, this enables reliable and modern warehousing services.",
         "kpis": ["Class A", "Built: 2023", "Height: 12 m", "Fire safety system", "Dust-free flooring"]
       },
       "gallery": { "title": "Warehouse photos", "hint": "Temporary images are used for now — you can replace files in img/ later without changing the code." },
@@ -225,7 +225,7 @@
 
       "about": {
         "title": "Ընկերության մասին",
-        "text": "WeStore-ը ձևավորվել է մեր սեփական առևտրային գործունեությունից։ Ծավալների աճի հետ մենք շարունակաբար բարելավել ենք պահեստը՝ օպտիմալացնելով ընդունումն ու արտահանումը, ուժեղացնելով վերահսկումն ու հաշվառումը, և բարելավելով պահպանումը։ Արդյունքում ձևավորվել են հստակ գործընթացներ և ծրագրային լուծում, որը արդյունավետ է աշխատում նաև արտաքին հաճախորդների հետ։ Գործող գործընկերների հետ համագործակցությունը հաստատվում է հետևողականորեն դրական արձագանքներով։"
+        "text": "WeStore-ը ձևավորվել է մեր սեփական առևտրային գործունեությունից։ Ծավալների աճի հետ մենք շարունակաբար բարելավել ենք պահեստը՝ օպտիմալացնելով ընդունումն ու արտահանումը, ուժեղացնելով վերահսկումն ու հաշվառումը, և բարելավելով պահպանումը։\n\nԱրդյունքում ձևավորվել են հստակ գործընթացներ և ծրագրային լուծում, որը արդյունավետ է աշխատում նաև արտաքին հաճախորդների հետ։\n\nԳործող գործընկերների հետ համագործակցությունը հաստատվում է հետևողականորեն դրական արձագանքներով։"
       },
 
       "process": {
@@ -240,7 +240,7 @@
 
       "warehouse": {
         "title": "Պահեստի մասին",
-        "text": "WeStore պահեստը կառուցվել է 2023 թվականին և համապատասխանում է A դասին։ Այն համալրված է հրդեհային անվտանգության համակարգով, ունի փոշուց ազատ հատակածածկ և 12 մ աշխատանքային բարձրություն։ Մեր ծրագրային ապահովման և գործընթացների հետ միասին դա ապահովում է հուսալի և ժամանակակից պահեստային սպասարկում։",
+        "text": "WeStore պահեստը կառուցվել է 2023 թվականին և համապատասխանում է A դասին։ Այն համալրված է հրդեհային անվտանգության համակարգով, ունի փոշուց ազատ հատակածածկ և 12 մ աշխատանքային բարձրություն։\n\nՄեր ծրագրային ապահովման և գործընթացների հետ միասին դա ապահովում է հուսալի և ժամանակակից պահեստային սպասարկում։",
         "kpis": ["A դաս", "Կառուցվել է՝ 2023", "Բարձրություն՝ 12 մ", "Հրդեհային համակարգ", "Փոշուց ազատ հատակ"]
       },
 
